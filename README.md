@@ -7,7 +7,7 @@ It is a simple alarm, which is created, to help you to get out of bed more easil
 
 Sometimes it doesn't work how it should, so for a better experience, turn off the autoplay restriction in your browser.
 
-##Usage
+## Usage
 
 I uploaded this alarm to GitHub pages.
 
