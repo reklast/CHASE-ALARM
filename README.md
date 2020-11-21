@@ -11,4 +11,4 @@ Sometimes it doesn't work how it should, so for a better experience, turn off th
 
 I uploaded this alarm to GitHub pages.
 
-Here's the link: (https://reklast.github.io/CHASE-ALARM/)
+Here's the link: https://reklast.github.io/CHASE-ALARM/
