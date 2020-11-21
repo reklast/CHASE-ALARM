@@ -1,7 +1,7 @@
 # CHASE-ALARM
 codename: B A M B U Z L A
 
-It is a simple alarm, which is created, to help you to get out of bed more easily.
+It is a simple alarm clock, which is created, to help you to get out of bed more easily.
 
 ## Bugs
 
