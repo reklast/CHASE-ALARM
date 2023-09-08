@@ -6,7 +6,7 @@ function Footer(): ReactElement {
   return (
     <footer className={styles.footer}>
       <a
-        href="https://github.com/reklast?tab=projects"
+        href="https://github.com/reklast"
         target="_blank"
         rel="noreferrer"
       />
