@@ -1,4 +1,4 @@
-import React, { ReactElement, useState } from "react";
+import { ReactElement } from "react";
 
 import Clock from "./components/Clock/Clock";
 import AlarmForm from "./components/AlarmForm/AlarmForm";

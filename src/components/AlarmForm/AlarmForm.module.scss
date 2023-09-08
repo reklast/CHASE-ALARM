@@ -1,28 +1,28 @@
-.form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 #setTime {
-    background-color: #d597ce;
-    border-radius: 1.5rem;
-    font-size: 1.3rem;
-    padding: 5px;
-    border-color: #5e63b6;
+  background-color: #d597ce;
+  border-radius: 1.5rem;
+  font-size: 1.3rem;
+  padding: 5px;
+  border-color: #5e63b6;
 }
 
 #button {
-    margin: 1rem 0 1rem 0;
-    background-color: #d597ce;
-    border-radius: 1rem;
-    border: none;
-    height: 1.5rem;
-    font-size: 16px;
-    transition: all .3s ease 0s;
+  margin: 1rem 0 1rem 0;
+  background-color: #d597ce;
+  border-radius: 1rem;
+  border: none;
+  height: 1.5rem;
+  font-size: 16px;
+  transition: all 0.3s ease 0s;
 }
 
 #button:hover {
-    background-color: #745c97;
+  background-color: #745c97;
 }

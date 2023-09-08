@@ -1,7 +1,6 @@
-import React, { ReactElement, useContext, useState } from "react";
+import React, { ReactElement, useContext } from "react";
 
 import { AlarmContext } from "../context/ContextAlarm";
-
 
 function Clock(): ReactElement {
   const { realTime, setRealTime } = useContext(AlarmContext);

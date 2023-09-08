@@ -1,21 +1,17 @@
-import { time } from "console";
-import React, { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
 
-export const AlarmContext = createContext<
-any | string
->(undefined);
+export const AlarmContext = createContext<any | string>(undefined);
 
-function ContextAlarm({ children }:any) {
-const [realTime, setRealTime] = useState(new Date());
-const [alarmTime, setAlarm] = useState("");
-
+function ContextAlarm({ children }: any) {
+  const [realTime, setRealTime] = useState(new Date());
+  const [alarmTime, setAlarm] = useState("");
 
   return (
     <AlarmContext.Provider
       value={{
         realTime,
         setRealTime,
-        alarmTime, 
+        alarmTime,
         setAlarm,
       }}
     >

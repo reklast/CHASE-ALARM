@@ -1,10 +1,4 @@
-import React, {
-  FormEvent,
-  ReactElement,
-  SyntheticEvent,
-  useContext,
-  useState,
-} from "react";
+import { FormEvent, ReactElement, useContext } from "react";
 
 import { AlarmContext } from "../context/ContextAlarm";
 
