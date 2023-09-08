@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/CHASE-ALARM/static/css/main.73bbc382.css",
+    "main.js": "/CHASE-ALARM/static/js/main.b902dbd3.js",
+    "static/js/787.96205bcf.chunk.js": "/CHASE-ALARM/static/js/787.96205bcf.chunk.js",
+    "static/media/chase.mp4": "/CHASE-ALARM/static/media/chase.b6c1828932b0c1fbc804.mp4",
+    "static/media/diamond.jpg": "/CHASE-ALARM/static/media/diamond.7cb77ae6bee8306615ef.jpg",
+    "index.html": "/CHASE-ALARM/index.html",
+    "main.73bbc382.css.map": "/CHASE-ALARM/static/css/main.73bbc382.css.map",
+    "main.b902dbd3.js.map": "/CHASE-ALARM/static/js/main.b902dbd3.js.map",
+    "787.96205bcf.chunk.js.map": "/CHASE-ALARM/static/js/787.96205bcf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73bbc382.css",
+    "static/js/main.b902dbd3.js"
+  ]
+}
