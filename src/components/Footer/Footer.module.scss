@@ -1,0 +1,16 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.footer a {
+    width: 32px;
+    height: 32px;
+    background-image: url('../../media/GitHub-logo.png');
+}
+
+.footer a:hover {
+    opacity: 0.7;
+}

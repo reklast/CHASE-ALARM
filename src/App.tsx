@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { ReactElement, useState } from "react";
 
-function App() {
+import Clock from "./components/Clock/Clock";
+import AlarmForm from "./components/AlarmForm/AlarmForm";
+import ChasePlayer from "./components/ChasePlayer/ChasePlayer";
+
+import ContextAlarm from "./components/context/ContextAlarm";
+
+import styles from "./App.module.scss";
+
+import "./styles/styles.scss";
+import Footer from "./components/Footer/Footer";
+
+function App(): ReactElement {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.App}>
+      <ContextAlarm>
+        <div className={styles.upperSection}>
+          <h1 className={styles.header}>CHASE ALARM</h1>
+          <Clock />
+          <AlarmForm />
+        </div>
+        <div className={styles.bottomSection}>
+          <ChasePlayer />
+          <Footer />
+        </div>
+      </ContextAlarm>
     </div>
   );
 }
